@@ -88,12 +88,12 @@ guessSep <- function(filepath) {
     }
 
 
-    find_biggest <- function(x) {
-        x[which.max(x)]
+    find_biggest <- function(liste_von_colcounts) {
+        liste_von_colcounts[which.max(liste_von_colcounts)]
     }
 
-    find_biggest_name <- function(x) {
-        names(find_biggest(x))
+    find_biggest_name <- function(listeneintrag) {
+        names(find_biggest(listeneintrag))
     }
 
 
